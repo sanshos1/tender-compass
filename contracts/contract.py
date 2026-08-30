@@ -15,6 +15,7 @@ class Tender: owner:str; brief:str; mandatory:str; scoring:str; status:str
 class Bid: tender_id:str; bidder:str; proposal_url:str; snapshot:str; result:str; mandatory_gaps:str; scores:str; rationale:str
 class TenderCompass(gl.Contract):
  tenders:TreeMap[str,Tender];bids:TreeMap[str,Bid]
+ def __init__(self):pass
  def _t(self,i):
   try:return self.tenders[i]
   except:raise gl.vm.UserError('[EXPECTED] tender not found')

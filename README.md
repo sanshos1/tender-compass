@@ -10,5 +10,5 @@ Lifecycle: `open_tender` → `evaluate_bid` (repeatable per bid) → `close_tend
 
 ## StudioNet deployment
 
-`0x5356195f0E4E5320CbBfa7251e4B83b7de288682`  
-Deployment transaction: `0xa525d34ba0e764d2d66ed39583325bea14b089e3c6b3143a398579c87f022c0d`
+`0x3f5C65608EecE730d65657Ce83F2224fc86Aeed8`  
+Deployment transaction: `0xaf8be8d7134447e7f11017a51301014d7782e54641a6f88301e317d4f8598953`
